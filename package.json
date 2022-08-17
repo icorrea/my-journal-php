@@ -1,0 +1,24 @@
+{
+  "name": "my-journal-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss:w": "sass --watch ./src/scss/style.scss ./src/public/css/style.css",
+    "scss:b": "sass ./src/scss/style.scss ./src/public/css/style.css --style compressed",
+    "script:w": "webpack --watch --mode=development",
+    "script:b": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

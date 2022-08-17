@@ -1,0 +1,11 @@
+@import '../../node_modules/normalize.css/normalize';
+
+:root{
+    --text-color:#000;
+}
+
+body{
+    font-family: sans-serif;
+    font-size:1rem;
+    color:var(--text-color);
+}
